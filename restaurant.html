@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The Trippy Taco</title>
+
+  <link rel="stylesheet"
+    href="https://bootswatch.com/4/united/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><!--Set JQuery-->
+</head>
+
+<body>
+    
+    <h1 class="display-4 text-center mt-5">The <span
+        class="text-primary">Trippy</span> Taco</h1><!--Set up title-->
+    <div class="container flex mt-4">
+        <div class="row m-5" id="storyrow"><!--Set up row and col for paragraphs and img-->
+            <div class="col" id="storycol">
+                <h2>Our <span class="text-warning">Trippy</span> Story</h2>
+                    <p>One day, long ago, the founder of Trippy Taco was lost in the desert.
+                    He only had 3 tortillas but nothing to put in them, until he found a catcus!
+                    Not knowing what this plant was he decided to put in in between his tortillas and
+                    have his lunch. A few moments later, he realized something was different...he realized
+                    he had eaten Peyote!!! The entire day the desert transformed colors, things did not look
+                    the same. He followed bright lights until he found a small town and found safety once again.
+                    That day he decided he was going to open Trippy Taco!
+                </p>
+            </div>
+            <div class="col" id="storyimg">
+                <img class="card-img-top" src="/ourstory.jpg" alt="our story">
+            </div>
+        </div>
+        <div class="row m-5" id="food-row">
+            <div class="col" id="food-col-img">
+                <img class="card-img-top" id="trippyfood" src="/food.jpeg" alt="trippy food">
+            </div>      
+            <div class="col" id="food-col">
+                <h2>Our <span class="text-warning">Food</span></h2>
+                     <p>Our food is made of the freshest, all natural, organic ingredients. Only something
+                        mother nature would eat herself...ALSO...all dishes include peyote. You can ask your
+                        waiter for a mild trip, spicy trip, or if your wild like our founder, a super spicy trip!
+                        We serve breakfast, lunch and dinner. Also don't miss our tasty deserts
+                    </p>
+                    <button type="button" class="btn btn-danger" id="fadeOut">Start trip </button><!--Create buttons for fad in and out-->
+                    <button type="button" class="btn btn-secondary" id="fadeIn">Leave trip</button>
+                    <button type="button" class="btn btn-primary" id="stopFade">Stop Trip</button>
+            </div>
+        </div>
+        <div class="row m-5" id="our-people-row">
+            <div class="col" id="our-people-col">
+                <h2>Our <span class="text-warning">Amazing</span> People</h2>
+                    <p>The amazing team that makes up Trippy Tacos is not only there to serve your delicous
+                    food, but they're also there to be your spirit guide throughout your entire meal. If 
+                    you're still on your trip when you want to leave, no problem! Our staff will call you a 
+                    friendly Uber driver who will be your spirit guide home.
+                 </p>
+            </div>
+            <div class="col" id="our-people-img">
+                <img class="card-img-top" src="/trippytaco.jpg" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="container flex mt-4" id="accordion"><!--Create Accordion with card classes-->
+        <div class="card">
+            <h3 class="card-title">Breakfast</h3>
+            <div class="card-body">
+                <p><b>Breakfast Burriot</b></p><br>
+                <p>Large flour tortilla filled with 2 free-range scrambled eggs, cheese and peyote salsa.</p><br>
+                <p><b>The Full Catcus</b></p><br>
+                <p>2 eggs how you like em, 2 peices of bacon, 2 sausages, 2 peices of toast, hashbrowns, pico de gallo, and fried peyote</p>
+            </div>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Lunch</h3>
+            <div class="card-body">
+                <p><b>Tres Taquitos</b></p><br>
+                <p>Three rolled-up crispy corn tortillas with black bean filling, topped with guacamole, peyote salsa, cheese, salad and lime.</p><br>
+                <p><b>Nachos</b></p><br>
+                <p>Corn tortilla chips topped with smokey ranchero sauce, with melted mozarella, black beans, fresh peyote salsa, guacamole and sour cream.</p>
+            </div>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Dinner</h3>
+            <div class="card-body">
+                <p><b>Original Trippy Black Bean Tacos</b></p><br>
+                <p>Fresh house-made corn tortillas with black beans, cheese, avocado slices, peyote salsa, a squeeze of fresh lime and garnished with goats cheese.</p><br>
+                <p><b>Carne Asada Burrito</b></p><br>
+                <p>Large wheat flour tortilla wrap, carne asada, goats cheese, mozarella, peyote salsa, guacamole, and a squeeze of fresh lime.</p>
+            </div>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Desserts</h3>
+            <div class="card-body">
+                <p><b>Sopapillas</b></p><br>
+                <p>A warm Mexican pastry dusted with cinnamon sugar with a peyote chocolate dip.</p><br>
+                <p><b>Fried Ice Cream</b></p><br>
+                <p>Crispy coated creamy vanilla ice cream drizzled with cinnamon sugar, honey, peyote chocolate sauce and garnished with whipped cream.</p>
+            </div>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Drinks</h3>
+            <div class="card-body">
+                <p><b>La Mesa Margarita/b></b></p><br>
+                <p>Altos 100% Agave Tequila mixed with our house recipe and triple sec and peyote!</p><br>
+                <p><b>CORONA-RITA MARGARITA</b></p><br>                    
+                <p>Our House Margarita combined with an upside down Coronita with peyote.</p>
+            </div>
+        </div>
+    </div>
+  <script src="restaurant.js"></script><!--Add in JS-->
+</body>
+</html>
